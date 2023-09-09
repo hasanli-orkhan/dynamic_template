@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:action="${settings}" method="post">
+        <label for="template">Choose a template:</label>
+
+        <select name="templateName" id="template">
+            <option value="template_a">template_a</option>
+            <option value="template_b">template_b</option>
+        </select>
+
+        <input type="submit" name="Save">
+    </form>
+</body>
+</html>
